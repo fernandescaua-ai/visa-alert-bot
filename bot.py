@@ -18,7 +18,7 @@ while True:
     text = r.text.lower()
 
     if "brazil" in text and "open" in text:
-        send_message("🚨 ATENÇÃO: Visto 462 abriu para o Brasil!")
+        send_message("🚨 VISTO 462 ABRIU PARA O BRASIL!")
         break
 
     print("Ainda fechado...")
