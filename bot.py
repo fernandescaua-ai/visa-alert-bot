@@ -1,8 +1,8 @@
 import requests
 import time
 
-TOKEN = "8241716281:AAFoBH70VPHcBGdlyzY0Yfhqlvjh3L4H-bk"
-CHAT_ID = "1101288272"
+TOKEN = os.environ["TELEGRAM_TOKEN"]
+CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 
 URL = "https://immi.homeaffairs.gov.au/what-we-do/whm-program/status-of-country-caps"
 
